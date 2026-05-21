@@ -82,6 +82,7 @@ git version 2.43.0
 ```
 #### 2.6.3 配置 VS Code 远程开发
 在 Windows 端下载并安装 VS Code，安装 Remote - WSL 扩展。在 Ubuntu 终端中，进入项目目录，输入 `code .`，VS Code 就会自动连接到 WSL 环境。
+
 #### 2.6.4 安装 CUDA Toolkit​
 ```# 确保 WSL 内核已更新至最新
 wsl --update
