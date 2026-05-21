@@ -49,6 +49,7 @@ MSRDC 版本: 1.2.6676
 Direct3D 版本: 1.611.1-81528511
 DXCore 版本: 10.0.26100.1-240331-1435.ge-release
 Windows: 10.0.26200.8457
+```
 > 如果遇到下载慢的情况，可以用离线包方案。
 #### 2.6.2 配置 C++ 开发全家桶
 进入安装好的 Ubuntu 终端，逐行执行：
@@ -77,7 +78,8 @@ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 zkh@DESKTOP-8D9JR55:~$ git --version
-git version 2.43.0```
+git version 2.43.0
+```
 #### 2.6.3 配置 VS Code 远程开发
 在 Windows 端下载并安装 VS Code，安装 Remote - WSL 扩展。在 Ubuntu 终端中，进入项目目录，输入 `code .`，VS Code 就会自动连接到 WSL 环境。
 #### 2.6.4 安装 CUDA Toolkit​
@@ -117,7 +119,8 @@ Thu May 21 22:54:24 2026
 |        ID   ID                                                               Usage      |
 |=========================================================================================|
 |  No running processes found                                                             |
-+-----------------------------------------------------------------------------------------+```
++-----------------------------------------------------------------------------------------+
+```
 ### 2.7 网络与权限问题
 在下载安装时还遇到了网络问题。试图更改 DNS 服务器、刷新 DNS 缓存后仍未好转，改用手机热点后可正常安装。另外，在 PowerShell 使用时遇到权限不足的问题，需以管理员身份运行 PowerShell。
 ## 3. 踩坑记录
